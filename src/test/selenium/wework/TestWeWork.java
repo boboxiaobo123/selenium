@@ -62,7 +62,6 @@ public class TestWeWork {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        webDriver.get("https://work.weixin.qq.com/wework_admin/frame");
         saveCookie();
     }
 
@@ -116,7 +115,6 @@ public class TestWeWork {
     public static void tearDown() {
         webDriver.close();
     }
-
 
 }
 
